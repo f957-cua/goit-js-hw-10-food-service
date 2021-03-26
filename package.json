@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/*.html",
-    "build": "parcel build src/index.html  --public-url /goit-js-hw-10-food-service.git/",
+    "build": "parcel build src/index.html  --public-url /goit-js-hw-10-food-service/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
